@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Salon Julia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./photo/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>Beauty Salon Julia<br> - is about self-love</h1>
+    </div>
+
+    <section class="parent">
+        <div class="child hair active">
+            <h3>Hair</h3>
+            <ul>
+                <li>Haircut</li>
+                <li>Hair care</li>
+                <li>Styling</li>
+                <li>Colouring</li>
+                <li>Braids</li>
+            </ul>
+        </div>
+
+        <div class="child makeup">
+            <h3>Makeup</h3>
+            <ul>
+                <li>Makeup</li>
+                <li>Brows</li>
+                <li>Lami</li>
+                <li>Permanent</li>
+            </ul>
+        </div>
+
+        <div class="child nails">
+            <h3>Nails</h3>
+            <ul>
+                <li>Manicure</li>
+                <li>Pedicure</li>
+                <li>Podology</li>
+            </ul>
+        </div>
+
+        <div class="child face">
+            <h3>Face</h3>
+            <ul>
+                <li>Face care</li>
+                <li>Machine</li>
+            </ul>
+        </div>
+
+        <div class="child body">
+            <h3>Body</h3>
+            <ul>
+                <li>Body care</li>
+                <li>Massage</li>
+                <li>Sugaring</li>
+                <li>Waxing</li>
+                <li>Photo</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="heading">
+        <h4>Make an appointment</h4>
+    </div>
+
+    <form action="https://formspree.io/f/xlezkree" method="POST">
+        <input type="hidden" name="_language" value="en" />
+        <div class="heading">
+            <label>
+                Type your email:
+                <input type="email" name="email" required>
+            </label>
+        </div>
+        <div class="heading">
+            <label>
+                Сonvenient time:
+                <textarea name="message" required></textarea>
+            </label>
+        </div>
+        <!-- your other form fields go here -->
+        <div class="heading">
+            <button type="submit">Send</button>
+        </div>
+    </form>
+
+    
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>

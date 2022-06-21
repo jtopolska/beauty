@@ -17,7 +17,7 @@ picture.forEach(function(item) {
 })
 
 
-//очистка формы после отправки
+
 window.onbeforeunload = () => {
     for(const form of document.getElementsByTagName('form')) {
         form.reset();
